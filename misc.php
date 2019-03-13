@@ -1,3 +1,4 @@
+<?php
 public function  cleanData($data){
         $data = trim($data);
         $data = strip_tags($data);
@@ -45,3 +46,5 @@ public function  cleanData($data){
     	if(intval($year) > date('Y'))
     		{ echo date('Y'); }
     }
+
+?>
