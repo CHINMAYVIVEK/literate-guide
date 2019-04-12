@@ -9,8 +9,10 @@
          $to = "receiver1@gmail.com";
          $subject = "This is subject";
          
-         $message = "<b>This is HTML message.</b>";
-         $message .= "<pre>This is headline.</1>";
+         $link = "www.github.com/CHINMAYVIVEK/literate-guide/blob/PHP-PDO/send_email.php/";
+         
+         $message = "<b>This is email sending code.</b>";
+         $message .= "<a href=".$link.">get the code</a>";
          
          $header = "From:sender1@gmail.com \r\n";
          $header .= "Cc:receiver2@gmail.com \r\n";
